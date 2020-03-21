@@ -1,0 +1,63 @@
+.bg-dark {
+  background: #000 !important;
+}
+
+.header {
+  font-family: 'Codystar';
+  color: #fce17e;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.15rem;
+}
+
+.poster img {
+  filter: grayscale(0.75);
+  /*transition: all 0.3s linear;*/
+}
+
+.poster:hover {
+  /*filter: grayscale(0);*/
+}
+
+.card-img-overlay {
+  display: grid;
+  align-content: center;
+  transition: all 0.2s linear;
+}
+
+.card-img-overlay h1 {
+  font-family: 'Squada One' !important;
+  /*font-family: 'Share' !important;*/
+  font-size: 2.4rem;
+  color: #fce17e;
+  vertical-align: middle;
+}
+
+.card-img-overlay h1, .card-img-overlay h2 {
+  transition: all 0.3s linear;
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  background-color: #000000dd;
+}
+
+.card-img-overlay:hover h1, .card-img-overlay:hover h2 {
+  opacity: 1;
+}
+
+.btn-outline-black {
+  font-family: 'Share';
+  font-size: 1.5rem;
+  color: #fce17e;
+
+}
+
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Big+Shoulders+Display|Big+Shoulders+Text||Odibee+Sans|Poiret+One|Share|Squada+One&display=swap" rel="stylesheet">
+
+.is-checked {
+  color: #000;
+  background-color: #fce17e;
+}
