@@ -4,6 +4,7 @@
 
 .header {
   font-family: 'Codystar';
+  font-size: 7rem;
   color: #fce17e;
   text-transform: uppercase;
   text-align: center;
@@ -47,7 +48,14 @@
 }
 
 .btn-outline-black {
-  font-family: 'Share';
+  /*font-family: 'Share';*/
+  
+  /*font-family: 'Big Shoulders Text';*/
+  
+  font-family: 'Quicksand';
+  
+  /*font-family: 'Bebas Neue';*/
+  font-weight: 300;
   font-size: 1.5rem;
   color: #fce17e;
 
@@ -55,7 +63,7 @@
 
 
     
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Big+Shoulders+Display|Big+Shoulders+Text||Odibee+Sans|Poiret+One|Share|Squada+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=||B||||Share|&display=swap" rel="stylesheet">
 
 .is-checked {
   color: #000;
